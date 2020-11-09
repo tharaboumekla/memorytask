@@ -4,6 +4,7 @@
 clear all; clc; close all;
 
 NbParticipants = 0;                                                         %On initialise le nombre de participants 
+NombreParticipants = participants(NbParticipants);                          %On appelle notre fonction participants
 
 %Création d'un tableau d'enregistrement. 
                                                                             %'Nom', 'Score', etc. correspond à des colonnes. Donc on doit déterminer combien de paires d'images on va avoir dans l'expérience pour déterminer le nombre de colonnes. 
